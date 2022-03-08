@@ -1,0 +1,73 @@
+.navbarmini {
+  height: 39px;
+  background-color: rgb(35, 47, 62);
+}
+.navbarmini__menu {
+  width: 70%;
+  color: white;
+  display: flex;
+  margin-left: 18px;
+  background-color: rgb(35, 47, 62);
+}
+.navbarmini__menu li {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  list-style: none;
+}
+
+.navbarmini__menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.MuiSvgIcon-root__:hover {
+  background-color: #ff9100;
+  margin-top: 2px;
+}
+
+.navbarmini__list0 {
+  display: flex;
+}
+
+.navbarmini__icon {
+  margin-top: 3px;
+}
+
+.navbarmini__iconname {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbarmini__list1 {
+  margin-left: 25px;
+}
+
+.navbarmini__list2 {
+  margin-left: 25px;
+}
+
+.navbarmini__list3 {
+  margin-left: 25px;
+}
+
+.navbarmini__list4 {
+  margin-left: 25px;
+}
+
+.navbarmini__list5 {
+  margin-left: 25px;
+}
+
+.navbarmini__list6 {
+  margin-left: 25px;
+}
+
+.navbarmini__list7 {
+  margin-left: 25px;
+}
+
+.navbarmini__list8 {
+  margin-left: 25px;
+}
