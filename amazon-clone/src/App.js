@@ -4,13 +4,10 @@ import { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Navbarmini from "./components/Navbarmini";
+import NavbarMini from "./components/NavbarMini";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
-// import UseStateArray from "./components/UseStateArray";
-// import ShortCirEval from "./components/ShortCirEval";
-// import BasicForm from "./components/froms/BasicForm";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -38,20 +35,16 @@ function App() {
 
           <Route path="/cart">
             <Navbar />
-            <Navbarmini />
+            <NavbarMini />
             <Cart />
           </Route>
 
           <Route path="/">
             <Navbar />
-            <Navbarmini />
+            <NavbarMini />
             <Home />
           </Route>
         </Switch>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <UseStateArray /> */}
-        {/* <ShortCirEval /> */}
-        {/* <BasicForm /> */}
       </div>
     </Router>
   );

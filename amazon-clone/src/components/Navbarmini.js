@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbarmini.css";
 import MenuIcon from "@material-ui/icons/Menu";
 
-function Navbarmini() {
+function NavbarMini() {
   return (
     <div className="navbarmini">
       <div className="navbarmini__menu">
@@ -43,4 +43,4 @@ function Navbarmini() {
   );
 }
 
-export default Navbarmini;
+export default NavbarMini;
