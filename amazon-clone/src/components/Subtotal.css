@@ -1,0 +1,26 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  width: 400px;
+  margin-top: 20px;
+  padding: 40px;
+  /* border-left: 2px black solid; */
+  background-color: white;
+}
+.subtotal__total {
+  font-size: 18px;
+}
+.subtotal__button {
+  padding: 3px;
+  height: 30px;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: yellow;
+}
+.subtotal__button:hover {
+  background-color: rgb(224, 224, 0);
+}

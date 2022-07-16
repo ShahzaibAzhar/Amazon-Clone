@@ -3,4 +3,14 @@
   padding: 20px;
   background-color: white;
   height: max-content;
+  background-color: rgb(236, 236, 236);
+  padding: 10px 100px;
+}
+.cart__title {
+  margin: 20px 40px;
+  padding: 20px;
+  background-color: white;
+}
+.cart__subtotal {
+  margin-top: 40px;
 }

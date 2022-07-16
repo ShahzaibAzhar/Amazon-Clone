@@ -1,5 +1,5 @@
 import "./App.css";
-import { auth } from "./firebase";
+//import { auth } from "./firebase";
 import { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -12,18 +12,18 @@ import Login from "./components/Login";
 function App() {
   const [{}, dispatch] = useStateValue();
 
-  useEffect(() => {
-    auth.onAuthStateChanged((authUser) => {
-      console.log("the user is >>>>", authUser);
-      if (authUser) {
-        dispatch({
-          type: "SET_USER",
-          user: authUser,
-        });
-      } else {
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   auth.onAuthStateChanged((authUser) => {
+  //     console.log("the user is >>>>", authUser);
+  //     if (authUser) {
+  //       dispatch({
+  //         type: "SET_USER",
+  //         user: authUser,
+  //       });
+  //     } else {
+  //     }
+  //   });
+  // }, []);
 
   return (
     <Router>

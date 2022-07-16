@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbarmini.css";
+import "./NavbarMini.css";
 import MenuIcon from "@material-ui/icons/Menu";
 
 function NavbarMini() {
@@ -27,7 +27,7 @@ function NavbarMini() {
           <a href="#">Browsing History</a>
         </li>
         <li className="navbarmini__list5">
-          <a href="#">Shahzaib's Amazon.com</a>
+          <a href="#">Adam's Amazon.com</a>
         </li>
         <li className="navbarmini__list6">
           <a href="#">Registry</a>

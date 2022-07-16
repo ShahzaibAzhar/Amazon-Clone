@@ -15,7 +15,7 @@ function Navbar() {
           <img
             className="navbar__logo"
             src="https://th.bing.com/th/id/R6b35955d07ed7c5e28ad0e6452699845?rik=1uh9eaX77Y6Dmw&pid=ImgRaw"
-          ></img>
+          />
         </Link>
       </div>
       <div className="navbar__search">
@@ -27,8 +27,8 @@ function Navbar() {
       <div className="navbar__right">
         <Link className="navbar__login__link" to="/login">
           <div className="navbar__accounts">
-            <span>Hello, Guest</span>
-            <h3>Sign In</h3>
+            <span>Hello, Adam</span>
+            <h3>Account & Lists</h3>
           </div>
         </Link>
         <div className="navbar__orders">
